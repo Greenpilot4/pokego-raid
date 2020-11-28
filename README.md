@@ -1,5 +1,5 @@
 # pokego-raid
-Used to join Pokemon Remote Raids faster then autoclickers. 
+Used to join Pokemon Remote Raids faster than autoclickers. 
 ## Usage 
 - Download python 3.6 + 
 - Run `pip install -r requirements.txt`
