@@ -1,7 +1,8 @@
 from discord.ext import commands
-from colorama import Fore
+from colorama import Fore, init
 import json
-import time
+
+init()
 
 with open('token.json') as f:
     data = json.load(f)
@@ -45,7 +46,7 @@ print(Fore.YELLOW + """\
 11. All Pokemon             
 """ + Fore.RESET)
 
-pokemonIN = input(Fore.MAGENTA + "Select a Number: " + Fore.RESET)
+pokemonIN = input("Select a Number: ")
 
 try:
     pokeOption = int(pokemonIN)
