@@ -73,7 +73,7 @@ for pokemon in soup.find_all("div", class_="boss-name"):
 
 
 bot = commands.Bot(command_prefix="!pokegoRR!", self_bot=True)
-pokeNav = 788543463477215303
+pokeNav = 428187007965986826
 
 if platform.system() == "Windows":
     system("cls")
