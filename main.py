@@ -9,6 +9,8 @@ import time
 
 init()
 
+# Old Code if you read this please give feedback, maybe I should use 2d arrays instead of 2?
+
 try:
     with open('token.json') as f:
         data = json.load(f)
