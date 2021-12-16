@@ -1,5 +1,5 @@
 # pokego-raid
-This is a selfbot application that is used to join remote pokemon go raids faster than autoclickers. This was created as a ***proof of concept***, as a solution to autoclickers.  
+This is a selfbot application that is used to join remote pokemon go raids faster than autoclickers. This was created as a ***proof of concept***, as a solution to autoclickers. Used in https://discord.gg/pgrr
 ## Features 
 - Scrapes current bosses from [The Silph Road](https://thesilphroad.com/raid-bosses)
 - Saves token to `token.json`
